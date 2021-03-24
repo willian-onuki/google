@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    flex-wrap: wrap;
+}
+nav{
+    padding: 15px;
+}
+nav .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    float: right;
+}
+
+nav .logo .apps{
+    height: 20px;
+    width: 20px;
+    
+}
+nav .logo .perfil{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgb(105, 105, 105);
+}
+nav .logo .perfil h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+}
+nav .logo .apps div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+}
+nav .logo .apps .ponto div{
+    height: 2px;
+    width: 2px;
+    border-radius: 50%;
+    background: #000000;
+}
+.imagem{
+    width: 100%;
+}
+.imagem img{
+    padding-top: 50px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+nav .logo a{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Roboto Mono', monospace;
+    color: #000;
+    text-decoration: none;
+}
+nav .logo a:hover{
+    text-decoration: underline;
+}
+.busca{
+    margin-top: 280px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 520px;
+}
+.busca img{
+    padding-top: 2px;
+    height: 20px;
+    width: 20px;
+}
+.busca input{
+    width: 460px;
+    height: 25px;
+    font-size: 15px;
+    font-family: 'Roboto Mono', monospace;
+    border: none;
+}
+.busca a{
+    text-decoration: none;
+}
+.busca a img{
+    height: 18px;
+    width: 12px;
+}
+.conteiner{
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+}
+.conteiner .box{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.conteiner2{
+    display: flex;
+    justify-content: center;
+}
+.conteiner2 .box2{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.conteiner .box .img{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 15px;
+}
+.conteiner .box h1{
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(48, 48, 48);
+    padding: 20px;
+}
+.conteiner2 .box2 .img2{
+    height: 30px;
+    width: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+.conteiner2 .box2 h1{
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(48, 48, 48);
+    padding: 20px;
+}
+.conteiner .box .img img{
+    height: 100%;
+    width: 100%;
+}
+.conteiner2 .box2 .img2 img{
+    height: 100%;
+    width: 100%;
+}
